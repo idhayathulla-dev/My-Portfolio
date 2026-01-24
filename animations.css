@@ -1,0 +1,51 @@
+/* Animations & 3D Utilities */
+
+/* 3D Container Context */
+.perspective-container {
+    perspective: 1000px;
+}
+
+/* 3D Card Base */
+.card-3d {
+    transform-style: preserve-3d;
+    transition: transform 0.1s ease-out;
+    /* Fast for mouse movement */
+    will-change: transform;
+}
+
+.card-content {
+    transform: translateZ(20px);
+}
+
+.card-bg {
+    transform: translateZ(0);
+}
+
+/* Scroll Animations */
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s var(--ease-out-quad), transform 0.8s var(--ease-out-quad);
+}
+
+.reveal-on-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Keyframes */
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}

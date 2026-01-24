@@ -1,0 +1,41 @@
+:root {
+    /* Design Tokens */
+    --color-bg: #0a0a0a;
+    --color-surface: #121212;
+    --color-surface-hover: #1c1c1c;
+    
+    --color-primary: #3b82f6; /* Electric Blue */
+    --color-accent: #8b5cf6; /* Purple */
+    --color-text-main: #ffffff;
+    --color-text-muted: #a3a3a3;
+    
+    --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+    
+    --ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    --max-width: 1200px;
+    --nav-height: 80px;
+}
+
+/* Typography Fallback & Smoothness */
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text-main);
+    font-family: var(--font-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.6;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* Motion Governance */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

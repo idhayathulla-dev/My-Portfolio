@@ -8,9 +8,9 @@ export default {
                     <a href="mailto:idhayathulla.official@gmail.com" class="email-link">idhayathulla.official@gmail.com</a>
                     
                     <div class="social-links">
-                        <a href="#" class="social-item">GitHub</a>
-                        <a href="#" class="social-item">LinkedIn</a>
-                        <a href="#" class="social-item">Twitter</a>
+                        <a href="https://github.com/idhayathulla-dev" target="_blank" rel="noopener noreferrer" class="social-item">GitHub</a>
+                        <a href="https://www.linkedin.com/in/idhayathulla-a-9791b9370?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="social-item">LinkedIn</a>
+                        <a href="https://x.com/Idhayathulla_" target="_blank" rel="noopener noreferrer" class="social-item">Twitter</a>
                     </div>
                 </div>
             </section>

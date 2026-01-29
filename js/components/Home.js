@@ -11,7 +11,7 @@ export default {
                             <p>Committed to the craft of clean code. I turn ambitious ideas into functional systems, ensuring every line of logic serves a thoughtful, user-centric purpose.</p>
                         </div>
                         <div class="hero-cta">
-                            <a href="/projects" data-link class="btn">View Work</a>
+                            <a href="#projects" data-link class="btn">View Work</a>
                             <a href="#contact" data-link class="btn btn-outline">Contact Me</a>
                         </div>
                     </div>
@@ -87,4 +87,5 @@ export default {
         // Cleanup if necessary (e.g. if we add scroll listeners later)
     }
 };
+
 

@@ -12,7 +12,7 @@ export default {
                         </div>
                         <div class="hero-cta">
                             <a href="/projects" data-link class="btn">View Work</a>
-                            <a href="/contact" data-link class="btn btn-outline">Contact Me</a>
+                            <a href="#contact" data-link class="btn btn-outline">Contact Me</a>
                         </div>
                     </div>
                     <div class="hero-visual">
@@ -87,3 +87,4 @@ export default {
         // Cleanup if necessary (e.g. if we add scroll listeners later)
     }
 };
+

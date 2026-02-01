@@ -30,6 +30,56 @@ export default {
                         </div>
                     </article>
 
+                    <!-- Project: EV Vehicle Demand Prediction -->
+                    <article class="project-block reveal-on-scroll">
+                        <div class="project-content">
+                            <h3>EV Vehicle Demand Prediction</h3>
+                            <p class="project-description">Designed and built an end-to-end data science solution to analyze and forecast electric vehicle adoption at the U.S. county level. The project transforms raw public datasets into actionable insights through data cleaning, exploratory analysis, visualization, and baseline forecasting models. Engineered to demonstrate real-world ML workflows, model evaluation, and data-driven decision-making, the solution highlights strong proficiency in Python, statistical modeling, and practical AI applications, developed as part of an AICTE learning internship.</p>
+                            <a href="https://github.com/idhayathulla-dev/EV_Vehicle_Demand_Prediction" target="_blank" class="text-link">View Project on GitHub →</a>
+                            <div class="tags">
+                                <span>Python</span><span>Data Science</span><span>Forecasting</span><span>ML</span>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <div class="carousel-container" id="ev-demand-carousel">
+                                <button class="carousel-btn prev" aria-label="Previous Slide">❮</button>
+                                <div class="carousel-track">
+                                    <div class="carousel-slide"><img src="./assets/images/EV_Demand_Prediction/Screenshot6.png" alt="EV Demand Prediction Screenshot 1"></div>
+                                    <div class="carousel-slide"><img src="./assets/images/EV_Demand_Prediction/Screenshot7.png" alt="EV Demand Prediction Screenshot 2"></div>
+                                    <div class="carousel-slide"><img src="./assets/images/EV_Demand_Prediction/Screenshot8.png" alt="EV Demand Prediction Screenshot 3"></div>
+                                    <div class="carousel-slide"><img src="./assets/images/EV_Demand_Prediction/Screenshot9.png" alt="EV Demand Prediction Screenshot 4"></div>
+                                    <div class="carousel-slide"><img src="./assets/images/EV_Demand_Prediction/Screenshot10.png" alt="EV Demand Prediction Screenshot 5"></div>
+                                </div>
+                                <button class="carousel-btn next" aria-label="Next Slide">❯</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project: Wind Energy Feasibility Dashboard -->
+                    <article class="project-block reveal-on-scroll">
+                        <div class="project-content">
+                            <h3>Wind Energy Feasibility Dashboard</h3>
+                            <p class="project-description">Developed a data-driven dashboard to assess the suitability of locations for wind energy generation using historical wind speed data. The project applies Python-based data processing, visualization, and time-series analysis to uncover trends, seasonal patterns, and variability in wind behavior. Implemented ARIMA forecasting to predict wind speeds over the next 30 days, enabling informed feasibility assessment for renewable energy planning. This work demonstrates practical skills in data cleaning, exploratory analysis, statistical modeling, and translating raw environmental data into actionable insights.</p>
+                            <!-- Note: No link provided in prompt, assuming placeholder or omitted if not available. User asked to "add this project", assuming standard format. If no link exists, I will omit the anchor tag or use # -->
+                            <!-- Checking prompt again: no link provided. I will omit the link for now or just put a placeholder if consistent. The prompt for EV had a link. This one doesn't. I'll omit the link. -->
+                            <div class="tags">
+                                <span>Python</span><span>Data Analysis</span><span>ARIMA</span><span>Visualization</span>
+                            </div>
+                        </div>
+                        <div class="project-visual">
+                            <div class="carousel-container" id="wind-energy-carousel">
+                                <button class="carousel-btn prev" aria-label="Previous Slide">❮</button>
+                                <div class="carousel-track">
+                                    <div class="carousel-slide"><img src="./assets/images/Wind_Energy_Feasibility_Dashboard/Screenshot11.png" alt="Wind Energy Dashboard Screenshot 1"></div>
+                                    <div class="carousel-slide"><img src="./assets/images/Wind_Energy_Feasibility_Dashboard/Screenshot12.png" alt="Wind Energy Dashboard Screenshot 2"></div>
+                                    <div class="carousel-slide"><img src="./assets/images/Wind_Energy_Feasibility_Dashboard/Screenshot13.png" alt="Wind Energy Dashboard Screenshot 3"></div>
+                                    <div class="carousel-slide"><img src="./assets/images/Wind_Energy_Feasibility_Dashboard/screenshot14.png" alt="Wind Energy Dashboard Screenshot 4"></div>
+                                </div>
+                                <button class="carousel-btn next" aria-label="Next Slide">❯</button>
+                            </div>
+                        </div>
+                    </article>
+
                     <!-- Project: Neon Dashboard -->
                     <article class="project-block reveal-on-scroll">
                         <div class="project-content">
@@ -84,6 +134,8 @@ export default {
 
         // Carousel Logic
         initCarousel('crysense-carousel');
+        initCarousel('ev-demand-carousel');
+        initCarousel('wind-energy-carousel');
     },
     beforeUnmount() {
         // Cleanup if necessary

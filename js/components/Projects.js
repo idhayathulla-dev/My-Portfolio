@@ -80,39 +80,6 @@ export default {
                         </div>
                     </article>
 
-                    <!-- Project: Neon Dashboard -->
-                    <article class="project-block reveal-on-scroll">
-                        <div class="project-content">
-                            <h3>Neon Dashboard</h3>
-                            <p>Real-time analytics platform with WebGL visualization.</p>
-                            <div class="tags">
-                                <span>WebGL</span><span>Vue 3</span><span>Node.js</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project: Aether Finance -->
-                    <article class="project-block reveal-on-scroll">
-                        <div class="project-content">
-                            <h3>Aether Finance</h3>
-                            <p>DeFi aggregator interface with zero-latency updates.</p>
-                            <div class="tags">
-                                <span>React</span><span>ethers.js</span><span>Tailwind</span>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Project: Zenith AI -->
-                    <article class="project-block reveal-on-scroll">
-                        <div class="project-content">
-                            <h3>Zenith AI</h3>
-                            <p>Generative art portfolio for AI-driven artists.</p>
-                            <div class="tags">
-                                <span>Three.js</span><span>Python</span><span>FastAPI</span>
-                            </div>
-                        </div>
-                    </article>
-
                 </div>
             </section>
         `;
@@ -166,3 +133,4 @@ function initCarousel(id) {
         updateSlide();
     });
 }
+

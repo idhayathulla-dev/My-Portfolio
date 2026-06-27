@@ -8,7 +8,7 @@ export default {
                         <h1 class="hero-title">I am <span class="highlight-text">Idhayathulla</span></h1>
                         <p class="hero-role">Computer Science Student & Software Developer</p>
                         <div class="hero-description">
-                            <p>Committed to the craft of clean code. I turn ambitious ideas into functional systems, ensuring every line of logic serves a thoughtful, user-centric purpose.</p>
+                            <p>Building custom software solutions that help businesses automate operations, streamline workflows, and achieve sustainable growth.</p>
                         </div>
                         <div class="hero-cta">
                             <a href="#projects" data-link class="btn">View Work</a>

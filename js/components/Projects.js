@@ -9,7 +9,7 @@ export default {
                     <article class="project-block reveal-on-scroll">
                         <div class="project-content">
                             <h3>CrySense</h3>
-                            <p class="project-description">Conceptualized and developed CrySense, a smart web-based platform that leverages AI-driven analysis to predict why a baby is crying, enabling faster and more informed caregiver responses. The solution processes audio input to classify cry patterns into actionable insights such as hunger, discomfort, or fatigue, delivering real-time recommendations through an intuitive interface. Architected for accuracy, scalability, and privacy, CrySense showcases strong capabilities in AI integration, data-driven decision systems, and end-to-end web development, translating advanced technology into a high-impact, user-focused product.</p>
+                            <p class="project-description">An AI-powered web application that analyzes a baby's cry to identify possible reasons such as hunger, discomfort, or tiredness. It provides real-time insights through a simple, user-friendly interface, helping caregivers respond more quickly and confidently.</p>
                             <a href="https://idhayathulla-dev.github.io/Cry_Sensor/" target="_blank" class="text-link">View Live Project →</a>
                             <div class="tags">
                                 <span>AI Integration</span><span>Web Development</span><span>Audio Analysis</span>

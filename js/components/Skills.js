@@ -2,12 +2,29 @@ export default {
     async render() {
         return `
             <section class="container" style="padding-top: 120px; padding-bottom: 80px;">
-                <h1 class="section-title reveal-on-scroll">Technical Arsenal</h1>
+                <h1 class="section-title reveal-on-scroll">Technical Stack</h1>
                 
                 <div class="skills-grid">
-                    ${renderSkillCategory('Core', ['HTML5 / Semantics', 'CSS3 / Animations', 'Vanilla JavaScript (ES6+)'])}
-                    ${renderSkillCategory('Frontend', ['React / Next.js', 'Vue.js', 'WebGL / Three.js'])}
-                    ${renderSkillCategory('Backend & Tools', ['Node.js', 'PostgreSQL', 'Git / CI/CD'])}
+                    ${renderSkillCategory('Frontend', [
+                        'HTML5 • CSS3 • JavaScript (ES6+)',
+                        'React • Next.js'
+                    ])}
+                    ${renderSkillCategory('Backend', [
+                        'Node.js • Express.js',
+                        'REST APIs'
+                    ])}
+                    ${renderSkillCategory('Database', [
+                        'PostgreSQL • MongoDB'
+                    ])}
+                    ${renderSkillCategory('Tools & DevOps', [
+                        'Git • Docker • CI/CD'
+                    ])}
+                    ${renderSkillCategory('Cloud & Deployment', [
+                        'Vercel • AWS • Firebase'
+                    ])}
+                    ${renderSkillCategory('AI Integration', [
+                        'OpenAI APIs • AI Chatbots • Automation with better UI'
+                    ])}
                 </div>
             </section>
         `;
@@ -17,11 +34,6 @@ export default {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
-                    // Animate bars
-                    const bars = entry.target.querySelectorAll('.skill-progress-fill');
-                    bars.forEach(bar => {
-                        bar.style.width = bar.dataset.width;
-                    });
                 }
             });
         }, { threshold: 0.2 });
@@ -38,11 +50,8 @@ function renderSkillCategory(title, skills) {
             <h3 class="skill-cat-title">${title}</h3>
             <ul class="skill-list">
                 ${skills.map(skill => `
-                    <li class="skill-item">
-                        <span class="skill-name">${skill}</span>
-                        <div class="skill-progress">
-                            <div class="skill-progress-fill" data-width="${Math.floor(Math.random() * 30 + 70)}%"></div>
-                        </div>
+                    <li class="skill-item-badge">
+                        ${skill}
                     </li>
                 `).join('')}
             </ul>

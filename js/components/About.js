@@ -8,9 +8,9 @@ export default {
                     </div>
                     <div class="about-text reveal-on-scroll">
                         <h1 class="section-title" style="text-align: left;">About The Journey</h1>
-                        <p class="about-lead">I am a computer science student and aspiring web and software developer, focused on building clean and impactful digital experiences.</p>
-                        <p>With a growing foundation in frontend development, UI design, and programming fundamentals, I combine logic with creativity to build intuitive solutions.</p>
-                        <p>Outside of development, I explore modern web technologies, UI/UX trends, and continuously upskill through projects and learning.</p>
+                        <p class="about-lead">I'm a Computer Science student and Software Developer, passionate about building modern web applications and business software that solve real-world problems.</p>
+                        <p>I combine clean code, practical design, and scalable development to create reliable, user-focused digital solutions with lasting value.</p>
+                        <p>Beyond development, I continuously explore AI, automation, and emerging technologies while expanding my skills through hands-on projects and continuous learning.</p>
                     </div>
                 </div>
             </section>
